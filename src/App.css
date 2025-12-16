@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+* {
+  outline: 2px solid red;
+}
 
 .App-logo {
   height: 40vmin;

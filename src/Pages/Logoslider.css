@@ -1,0 +1,26 @@
+.bgcolor {
+  background-color: #f8f9fa;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+/* slick track fix */
+.gallery-slider {
+  width: 90%;
+  margin: auto;
+}
+
+/* each slide */
+.gallery-img-wrap {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/* logo image */
+.logo-img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+

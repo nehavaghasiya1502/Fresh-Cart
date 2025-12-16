@@ -1,0 +1,44 @@
+.custom-navbar {
+  background-color: transparent;
+  padding: 20px 0;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* SCROLL STATE */
+.custom-navbar.scrolled {
+  background-color: rgb(0, 0, 29);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* LOGO */
+.navbar-logo {
+  height: 42px;
+}
+
+/* CENTER MENU */
+.nav-center .nav-link {
+  color: white !important;
+  margin: 0 18px;
+  font-weight: 500;
+}
+
+.nav-center .nav-link:hover {
+  color: #f28123 !important;
+}
+
+/* RIGHT ICONS */
+.header-icons {
+  display: flex;
+  gap: 22px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-icons svg {
+  color: white;
+  transition: 0.3s;
+}
+
+.header-icons svg:hover {
+  color: #f28123;
+}
