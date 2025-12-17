@@ -12,7 +12,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import News from "./Pages/News";
 import Contact from "./Pages/Contact";
-import Shop from "./Pages/Shop"
+import Shop from "./Pages/Shop";
 
 const App = () => {
   return (
@@ -25,6 +25,7 @@ const App = () => {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Shop" element={<Shop />} />
+        <Route path="/News" element={<News />} />
       </Routes>
 
       <Footer />

@@ -9,9 +9,9 @@ import l2 from "../../assets/sliderlogo/l2.png";
 import l3 from "../../assets/sliderlogo/l3.png";
 import l4 from "../../assets/sliderlogo/l4.png";
 
-const logos = [l1, l2, l3, l4,l1, l2, l3, l4];
+const Logoslider = () => { 
+  const logos = [l1, l2, l3, l4, l1, l2, l3, l4];
 
-const Logoslider = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -21,11 +21,33 @@ const Logoslider = () => {
     autoplay: true,
     autoplaySpeed: 1000,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024, 
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="bgcolor mt-5">
-  
       <Slider {...settings} className="gallery-slider">
         {logos.map((logo, i) => (
           <div key={i} className="gallery-img-wrap">
@@ -33,7 +55,6 @@ const Logoslider = () => {
           </div>
         ))}
       </Slider>
-  
     </div>
   );
 };

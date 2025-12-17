@@ -20,35 +20,49 @@ const Intro = () => {
         </div>
       </section>
 
+      
       <section className="intro-info mb-5">
-        <Container>
-          <Row className="text-center">
-            <Col md={4} className="info-box">
-              <div className="icon-circle">
-                <FaTruck />
-              </div>
-              <h5>Free Shipping</h5>
-              <p>When order over $75</p>
-            </Col>
+  <Container>
+    <Row className="text-center">
+      <Col md={4}>
+        <div className="info-box">
+          <div className="icon-circle">
+            <FaTruck />
+          </div>
+          <div className="text">
+            <h5>Free Shipping</h5>
+            <p>When order over $75</p>
+          </div>
+        </div>
+      </Col>
 
-            <Col md={4} className="info-box">
-              <div className="icon-circle">
-                <FaPhoneAlt />
-              </div>
-              <h5>24/7 Support</h5>
-              <p>Get support all day</p>
-            </Col>
+      <Col md={4}>
+        <div className="info-box">
+          <div className="icon-circle">
+            <FaPhoneAlt />
+          </div>
+          <div className="text">
+            <h5>24/7 Support</h5>
+            <p>Call us anytime</p>
+          </div>
+        </div>
+      </Col>
 
-            <Col md={4} className="info-box">
-              <div className="icon-circle">
-                <FaUndo />
-              </div>
-              <h5>Refund</h5>
-              <p>Get refund within 3 days!</p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <Col md={4}>
+        <div className="info-box">
+          <div className="icon-circle">
+            <FaUndo />
+          </div>
+          <div className="text">
+            <h5>Easy Returns</h5>
+            <p>30 days money back</p>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
     </>
   );
 };
