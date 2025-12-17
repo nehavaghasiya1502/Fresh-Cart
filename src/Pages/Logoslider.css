@@ -1,6 +1,6 @@
 .bgcolor {
   background-color: #f8f9fa;
-  min-height: 100px;
+  min-height: 200px;
   display: flex;
   align-items: center;
 }
@@ -24,3 +24,23 @@
   object-fit: contain;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   /* 🔥 MOST IMPORTANT */
+}
+
+/* kisi bhi section me 100vw avoid */
+.box,
+.bgcolor,
+.hero,
+.navbar {
+  width: 100%;
+}
+
+/* bootstrap side padding remove */
+.container,
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

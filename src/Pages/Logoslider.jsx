@@ -25,7 +25,7 @@ const Logoslider = () => {
   };
 
   return (
-    <div className="bgcolor mb-5  mt-5">
+    <div className="bgcolor mt-5">
   
       <Slider {...settings} className="gallery-slider">
         {logos.map((logo, i) => (

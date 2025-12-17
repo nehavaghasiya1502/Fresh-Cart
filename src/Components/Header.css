@@ -42,3 +42,23 @@
 .header-icons svg:hover {
   color: #f28123;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   /* 🔥 MOST IMPORTANT */
+}
+
+/* kisi bhi section me 100vw avoid */
+.box,
+.bgcolor,
+.hero,
+.navbar {
+  width: 100%;
+}
+
+/* bootstrap side padding remove */
+.container,
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

@@ -6,9 +6,10 @@ import logo from "../assets/logo/logo3.png";
 import { FaShoppingCart, FaSearch } from "react-icons/fa";
 import { FaHome, FaInfoCircle, FaNewspaper, FaEnvelope, FaStore } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
-  function Header() {
+function Header() {
 
   const [scrolled, setScrolled] = useState(false);
 
@@ -46,7 +47,8 @@ import { useEffect, useState } from "react";
             </Nav.Link>
 
             <Nav.Link href="/about" className="nav-item-icon">
-              About <FaInfoCircle />
+              {/* <Link to="/about">About</Link> */}About
+              <FaInfoCircle />
             </Nav.Link>
 
             <Nav.Link href="/news" className="nav-item-icon">

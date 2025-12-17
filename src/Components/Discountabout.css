@@ -1,0 +1,46 @@
+.discount-about {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.55); /* dark overlay */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.discount-title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.discount-off {
+  color: #f28123;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.discount-off span {
+  color: #fff;
+}
+
+.discount-text {
+  color: #ddd;
+  margin: 15px 0 25px;
+}
+
+.discount-btn {
+  background-color: #f28123;
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.discount-btn:hover {
+  background-color: #08202b ;
+}

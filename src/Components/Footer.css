@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;   /* 🔥 MOST IMPORTANT */
+}
+
+/* kisi bhi section me 100vw avoid */
+.box,
+.bgcolor,
+.hero,
+.navbar {
+  width: 100%;
+}
+
+/* bootstrap side padding remove */
+.container,
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.footer-bg {
+  background: #0b1c26;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-line {
+  width: 30px;
+  height: 2px;
+  background: #f28123;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  color: #bfc6cc;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  color: #bfc6cc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.footer-links li:hover{
+  color: #f28123;
+}
+
+.footer-input {
+  background: #08202b;
+  border: none;
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+}
+
+.footer-btn {
+  background: #f28123;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.footer-divider {
+  border-color: #b5b5b6;
+}
+
+.footer-bottom-text {
+  font-size: 14px;
+  color: #bfc6cc;
+}
+
+.highlight {
+  color: #f28123;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background: #08202b;
+  color: #fff;
+  border-radius: 50%;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.social-icon:hover{
+  color: #f28123;
+}
+.footer-input{
+  background-color: white;
+}
+.footer-btn:hover{
+  background-color: rgb(91, 59, 1);
+}
