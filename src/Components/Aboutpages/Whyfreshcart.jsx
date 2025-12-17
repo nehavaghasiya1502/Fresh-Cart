@@ -9,7 +9,7 @@ import {
   FaSyncAlt,
 } from "react-icons/fa";
 
-import whyImg from "../assets/about/about1.png";
+import whyImg from "../../assets/about/about1.png";
 
 const Whyfreshcart = () => {
   return (

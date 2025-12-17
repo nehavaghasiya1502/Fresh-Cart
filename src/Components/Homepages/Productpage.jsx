@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import './Productpage.css';
-import p1 from "../assets/products/p1.png";
-import p2 from "../assets/products/p2.png";
-import p3 from "../assets/products/p3.png";
-import p4 from "../assets/products/p4.png";
-import p5 from "../assets/products/p5.png";
-import p6 from "../assets/products/p6.png";
+import p1 from "../../assets/products/p1.png";
+import p2 from "../../assets/products/p2.png";
+import p3 from "../../assets/products/p3.png";
+import p4 from "../../assets/products/p4.png";
+import p5 from "../../assets/products/p5.png";
+import p6 from "../../assets/products/p6.png";
 
 const products = [
   {
@@ -79,6 +79,16 @@ const Productpage = () => {
       </div> */}
 
       {/* PRODUCTS */}
+            <div className="product-title text-center">
+      <h2>
+        <span>Our</span> Products
+      </h2>
+      <div className="title-line"></div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga
+        quas itaque eveniet beatae optio.
+      </p>
+    </div>
       <Row className="g-4">
         {filteredProducts.map((item) => (
           <Col md={4} sm={6} key={item.id}>

@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import { Container, Card } from "react-bootstrap";
-import t1 from "../assets/about/about3.png";
-import t2 from "../assets/about/about4.png";
-import t3 from "../assets/about/about5.png";
+import t1 from "../../assets/about/about3.png";
+import t2 from "../../assets/about/about4.png";
+import t3 from "../../assets/about/about5.png";
 
 const testimonials = [
   {

@@ -1,13 +1,13 @@
 import React from "react";
-import "./Intro.css";
+import "./Shophero.css";
 import { Col, Row } from "react-bootstrap";
 
 
-function Intro() {
+function Shophero() {
   return (
     
      <Row>
-      <Col>
+      <Col className="mb-5">
        <div className="box">
         <div className="fresh">FRESH AND ORGANIC</div>
         <div className="p1">Shop</div>
@@ -18,4 +18,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default Shophero;

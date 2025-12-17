@@ -3,9 +3,9 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import "./Teamabout.css";
 
-import t1 from "../assets/about/about3.png";
-import t2 from "../assets/about/about4.png";
-import t3 from "../assets/about/about5.png";
+import t1 from "../../assets/about/about3.png";
+import t2 from "../../assets/about/about4.png";
+import t3 from "../../assets/about/about5.png";
 
 const teamData = [
   {

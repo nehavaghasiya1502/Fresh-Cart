@@ -1,14 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
-// import { Container } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Logoslider.css';
 
-import l1 from "../assets//sliderlogo/l1.png";
-import l2 from "../assets//sliderlogo/l2.png";
-import l3 from "../assets//sliderlogo/l3.png";
-import l4 from "../assets//sliderlogo/l4.png";
+import l1 from "../../assets/sliderlogo/l1.png";
+import l2 from "../../assets/sliderlogo/l2.png";
+import l3 from "../../assets/sliderlogo/l3.png";
+import l4 from "../../assets/sliderlogo/l4.png";
 
 const logos = [l1, l2, l3, l4,l1, l2, l3, l4];
 

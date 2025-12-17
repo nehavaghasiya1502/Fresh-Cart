@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Discountabout.css";
 
-import discountImg from "../assets/about/about2.png"; 
+import discountImg from "../../assets/about/about2.png";
+
 const Discountabout = () => {
   return (
     <section
