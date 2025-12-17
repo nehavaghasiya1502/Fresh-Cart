@@ -18,7 +18,6 @@
   backdrop-filter: blur(4px); 
 }
 
-/* Button styling */
 .rounded-pill {
   background-color: rgb(218, 117, 40);
   width: 170px;
@@ -33,18 +32,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;   /* 🔥 MOST IMPORTANT */
+  overflow-x: hidden;  
 }
-
-/* kisi bhi section me 100vw avoid */
 .box,
 .bgcolor,
 .hero,
 .navbar {
   width: 100%;
 }
-
-/* bootstrap side padding remove */
 .container,
 .container-fluid {
   padding-left: 0 !important;
@@ -61,7 +56,7 @@ html, body {
 }
 
 .product-title h2 span {
-  color: #f28123; /* orange */
+  color: #f28123; 
 }
 
 .title-line {

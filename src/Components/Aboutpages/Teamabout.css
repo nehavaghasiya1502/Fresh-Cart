@@ -34,8 +34,6 @@
   object-fit: cover;
   width: 100%;
 }
-
-/* SOCIAL ICONS */
 .social-icons {
   position: absolute;
   bottom: 15px;
@@ -56,8 +54,6 @@
   justify-content: center;
   transition: all 0.3s ease;
 }
-
-/* 🔥 HOVER EFFECT */
 .social-icons a:hover {
   background: #051922;
   color: #f28123;
